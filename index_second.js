@@ -5,7 +5,7 @@ console.log(process.env);
 
 const figlet = require("figlet");
 
-const myVar = process.env.VAR_REPO_1;
+const myVar = process.env.VAR_REPO_2;
 console.log(
   figlet.textSync(myVar, {
     //   font: "Ghost",
