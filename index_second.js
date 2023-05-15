@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-console.log(process.env);
+// console.log(process.env);
 
 // const figlet = require("figlet");
 
@@ -16,3 +16,4 @@ console.log(process.env);
 // );
 
 console.log("DATA_RECEIVED:", process.env.DATA_RECEIVED);
+console.log("DATA_RECEIVED:", JSON.parse(process.env.DATA_RECEIVED));
