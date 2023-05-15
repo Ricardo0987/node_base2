@@ -16,4 +16,4 @@ console.log(
   })
 );
 
-console.log("VAR3_common:", process.env.VAR3_common);
+console.log("DATA_RECEIVED:", process.env.DATA_RECEIVED);
